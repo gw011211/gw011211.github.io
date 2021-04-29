@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(255, 255, 255);
+    display: block;
+    padding: 70px;
+    text-align: center;
+    font-family: 여기어때 잘난체;
+    font-size: 18px;
+    background-image: url('로고고.jpg.jpg');
+    background-position: 50%;
+}
+
+#demotext2 {
+    border-bottom: 12px dashed rgba(235,233,26,0.24);
+    }
+
+#demotext {
+    color: rgb(62, 87, 197);
+    text-shadow: #2ee59042 2px 2px 0px, #9c9c9cc7 4px 4px 0px;
+    color: rgb(62, 87, 197);
+    }
+
+.container{
+    display: flex;
+    height: 1500px;
+}
+
+article{
+    flex:8;
+    padding: 50px;
+    text-align: center;
+    font-family: G마켓 산스 TTF;
+    background-image:url('모눈종이2.jpg');
+}
+
+aside{
+    flex:2;
+    background: lightgray;
+    padding: 50px;
+    font-family: G마켓 산스 TTF;
+}
+
+footer{
+    background: rgb(60, 82, 180);
+    padding: 20px;
+    text-align: center;
+    font-family: 여기어때 잘난체;
+}
+
+nav{
+    background:rgb(60, 82, 180);
+    display: flex;
+    padding: 5px;
+    justify-content: flex-end; 
+    font-family: G마켓 산스 TTF;
+}
+
+nav > a{
+    padding: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+table{
+    margin-left: 25%;
+    margin-right: 35%;
+    margin-bottom: 10%;
+}
+
+.myimg{
+    width: 220px;
+    height: 220px;
+    border: 1px;
+    border-radius: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    font-family: G마켓 산스 TTF;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color:rgb(60, 82, 180);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #2ee590;
+    box-shadow: 0px 15px 20px rgba(40, 192, 131, 0.267);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  

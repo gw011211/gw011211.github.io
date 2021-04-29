@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WebPage</title>
+    <link rel='stylesheet' href= "MyWeb.css">
+</head>
+<body>
+    <header>
+        <div id="demotext" style='font-size:55px;'>PNU CALCULATOR</div>
+    </header>
+
+    <nav>
+        <a href='' style='color:white;'>과목계산기</a>
+        <a href=''style='color: white;'>&nbsp;학점계산기&nbsp;</a>
+    </nav>
+
+    <div class='container'>
+
+        <aside>
+            <h2>✎ USER</h2><br>
+            <p>
+                <img src= "eee캡처.JPG" class='myimg'><br><br><br>
+                OOO 님<br>
+                🙍‍♂️
+                <a href='' style='color: black;'>내 정보</a>
+                🔒
+                <a href='' style='color: black;'>비밀번호 변경</a>
+                <br><br>
+                <a href='' style='color: black;'>- 나의 대학생활 한 눈에 보기</a><br>
+                <a href='' style='color: black;'>- 나의 수강과목 바로보기</a><br>
+                <a href='' style='color: black;'>- 나의 학점 바로보기</a>
+            
+            </p>
+        </aside>
+
+        <article class= 'item'>
+            <div id="demotext2">
+            <br>
+            <b style='font-size:30px;'>📌 Information</b><br><br>
+            <b>▸ 학번 및 전공을 입력해주세요</b>
+            <br><br><br>
+            <p>
+                <b style='font-size:20px;'>학번:</b>
+                <input TYPE='text' name = 학번 SIZE=20 Maxlength=10 Value= '202027534'>
+                <b style='font-size:20px;'>&nbsp;전공:</b>
+                <input TYPE='text' name = 전공 SIZE=20 Maxlength=10 Value= '산업공학과'>
+                <b style='font-size:20px;'>&nbsp;부전공:</b>
+                <input TYPE='text' name = 부전공 SIZE=20 Maxlength=10 Value= '없음'>
+                <b style='font-size:20px;'>&nbsp;복수전공:</b>
+                <input TYPE='text' name = 복수전공 SIZE=20 Maxlength=10 Value= '없음'>
+                <br><br><br>
+                <div class="wrap">
+                    <button class="button">입력하기</button>
+                  </div>
+            </p>
+            <br><br><br>
+            </div>
+            <br><br><br><br><br>
+
+
+
+            <div class="table-container">
+
+            
+                
+                <table border='1' bordercolor='gray'   cellspacing='1'>
+                    <caption><span style="background-color:rgba(60, 82, 180, 0.253);">📖 교양 선택</span>▸ 교양선택 과목으로 수강한 영역을 모두 선택하세요</caption>
+                    <br>
+                    <br>
+
+                    <thead>
+                        <tr align='center' bgcolor='white'>
+                            <td style='background-color: lightgray;'></td>
+                            <th style='background-color: lightgray;'>이수구분</th>
+                            <th style='background-color: lightgray;'>영역</th>
+                            <th style='background-color: lightgray;'>학점</th>
+                            <th style='background-color: lightgray;'>수강여부</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr align='center' bgcolor='white'>
+                            <th>1</th>
+                            <th style='font-weight:lighter;'>교양선택</th>
+                            <th style='font-weight:lighter;'>1영역:사상과역사</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='1영역' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>2</th>
+                            <th style='font-weight:lighter;'>교양선택</th>
+                            <th style='font-weight:lighter;'>2영역:사회와문화</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='2영역' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>3</th>
+                            <th style='font-weight:lighter;'>교양선택</th>
+                            <th style='font-weight:lighter;'>3영역:문학과예술</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='3영역' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>4</th>
+                            <th style='font-weight:lighter;'>교양선택</th>
+                            <th style='font-weight:lighter;'>4영역:과학과기술</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='4영역' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>5</th>
+                            <th style='font-weight:lighter;'>교양선택</th>
+                            <th style='font-weight:lighter;'>5영역:건강과레포츠</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='5영역' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>6</th>
+                            <th style='font-weight:lighter;'>교양선택</th>
+                            <th style='font-weight:lighter;'>6영역:외국어</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='5영역' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>7</th>
+                            <th style='font-weight:lighter;'>교양선택</th>
+                            <th style='font-weight:lighter;'>7영역:융복합</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='5영역' check> <br></th>
+                        </tr>
+
+                    </tbody>
+                </table><br><br><br>
+                                 
+                <table border='1' bordercolor='gray'  cellspacing='1'>
+                    <caption><span style="background-color:rgba(60, 82, 180, 0.253);">📖 교양 필수</span>▸ 교양필수 과목으로 수강한 과목을 모두 선택하세요</caption>
+                    <br><br>
+
+                    <thead>
+                        <tr align='center' bgcolor='white'>
+                            <td style='background-color: lightgray;'></td>
+                            <th style='background-color: lightgray;'>이수구분</th>
+                            <th style='background-color: lightgray;'>교과목번호</th>
+                            <th style='background-color: lightgray;'>과목명</th>
+                            <th style='background-color: lightgray;'>학점</th>
+                            <th style='background-color: lightgray;'>수강여부</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr align='center' bgcolor='white'>
+                            <th>1</th>
+                            <th style='font-weight:lighter;'>교양필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>대학영어</th>
+                            <th style='font-weight:lighter;'>2</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='1영역' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>2</th>
+                            <th style='font-weight:lighter;'>교양필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>컴퓨팅사고와인공지능</th>
+                            <th style='font-weight:lighter;'>1.5</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='2영역' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>3</th>
+                            <th style='font-weight:lighter;'>교양필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>기초컴퓨터프로그래밍</th>
+                            <th style='font-weight:lighter;'>1.5</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='3영역' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>4</th>
+                            <th style='font-weight:lighter;'>교양필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>고전읽기와토론</th>
+                            <th style='font-weight:lighter;'>2</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='4영역' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>5</th>
+                            <th style='font-weight:lighter;'>교양필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>공학작문및발표</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='5영역' check> <br></th>
+                        </tr>
+
+                    </tbody>
+                </table><br><br><br>
+             
+            
+            <p>
+                <table border='1' bordercolor='gray' height='200' cellspacing='1'>
+                    <caption> <span style="background-color:rgba(60, 82, 180, 0.253);">📖 1학년 1학기</span>▸ 1학년 1학기에 수강한 과목을 모두 선택하세요</caption>
+                    <br><br>
+
+                    <thead>
+                        <tr align='center' bgcolor='white'>
+                            <td style='background-color: lightgray;'></td>
+                            <th style='background-color: lightgray;'>이수구분</th>
+                            <th style='background-color: lightgray;'>교과목번호</th>
+                            <th style='background-color: lightgray;'>과목명</th>
+                            <th style='background-color: lightgray;'>학점</th>
+                            <th style='background-color: lightgray;'>수강여부</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr align='center' bgcolor='white'>
+                            <th>1</th>
+                            <th style='font-weight:lighter;'>전공기초</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>공학선형대수학</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='공학선형대수학' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>2</th>
+                            <th style='font-weight:lighter;'>전공기초</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>일반물리학 1</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='일반물리학 1' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>3</th>
+                            <th style='font-weight:lighter;'>전공기초</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>일반물리학실험 1</th>
+                            <th style='font-weight:lighter;'>1</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='일반물리학실험 1' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>4</th>
+                            <th style='font-weight:lighter;'>전공기초</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>산업공학현장이해</th>
+                            <th style='font-weight:lighter;'>1</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='산업공학현장이해' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>5</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>일반화학 1</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='일반화학1' check> <br></th>
+                        </tr>
+
+                    </tbody>
+                </table><br><br><br>
+           
+
+            </p>
+         
+
+        
+         
+            <p>
+                <table border='1' bordercolor='gray' height='200' cellspacing='1'>
+                    <caption><span style="background-color:rgba(60, 82, 180, 0.253);">📖 1학년 2학기</span>▸ 1학년 2학기에 수강한 과목을 모두 선택하세요</caption>
+                    <br><br>
+                    <thead>
+                        <tr align='center' bgcolor='white'>
+                            <td style='background-color: lightgray;'></td>
+                            <th style='background-color: lightgray;'>이수구분</th>
+                            <th style='background-color: lightgray;'>교과목번호</th>
+                            <th style='background-color: lightgray;'>과목명</th>
+                            <th style='background-color: lightgray;'>학점</th>
+                            <th style='background-color: lightgray;'>수강여부</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr align='center' bgcolor='white'>
+                            <th>1</th>
+                            <th style='font-weight:lighter;'>전공기초</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>공학미적분학</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='공학미적분학' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>2</th>
+                            <th style='font-weight:lighter;'>전공기초</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>이산수학</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='이산수학' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>3</th>
+                            <th style='font-weight:lighter;'>전공기초</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>CAD</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='CAD' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>4</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>일반물리학 2</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='일반물리학 2' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>5</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>일반물리학실험 2</th>
+                            <th style='font-weight:lighter;'>1</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='일반물리학실험 2' check> <br></th>
+                        </tr>
+
+                    </tbody>
+                </table><br><br><br>
+        
+
+            </p>
+    
+          
+            <p>
+                <table border='1' bordercolor='gray' height='200' cellspacing='1'>
+                    <caption>     <span style="background-color:rgba(60, 82, 180, 0.253);">📖 2학년 1학기</span>▸ 2학년 1학기에 수강한 과목을 모두 선택하세요</caption>
+                    <br><br>
+                    <thead>
+                        <tr align='center' bgcolor='white'>
+                            <td style='background-color: lightgray;'></td>
+                            <th style='background-color: lightgray;'>이수구분</th>
+                            <th style='background-color: lightgray;'>교과목번호</th>
+                            <th style='background-color: lightgray;'>과목명</th>
+                            <th style='background-color: lightgray;'>학점</th>
+                            <th style='background-color: lightgray;'>수강여부</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr align='center' bgcolor='white'>
+                            <th>1</th>
+                            <th style='font-weight:lighter;'>전공기초</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>산업공학프로그래밍</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='산업공학프로그래밍' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>2</th>
+                            <th style='font-weight:lighter;'>전공기초</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>공학통계 1</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='공학통계 1' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>3</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>경영과학 1</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='경영과학 1' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>4</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>제조공학</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='제조공학' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>5</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>공학수학 1</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='공학수학 1' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>6</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>전기전자공학개론</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='전기전자공학개론' check> <br>
+                        </th>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>7</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>공학설계입문</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='공학설계입문' check> <br>
+                        </th>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>8</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>벤처와기술창업</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='벤처와기술창업' check> <br>
+                        </th>
+
+                    </tbody>
+                </table><br><br><br>
+
+            </p>
+      
+            <p>
+
+                <table border='1'bordercolor='gray' height='200' cellspacing='1'>
+                    <caption><span style="background-color:rgba(60, 82, 180, 0.253);">📖 2학년 2학기</span>▸ 2학년 2학기에 수강한 과목을 모두 선택하세요</caption>
+                    <br><br>
+                    <thead>
+                        <tr align='center' bgcolor='white'>
+                            <td style='background-color: lightgray;'></td>
+                            <th style='background-color: lightgray;'>이수구분</th>
+                            <th style='background-color: lightgray;'>교과목번호</th>
+                            <th style='background-color: lightgray;'>과목명</th>
+                            <th style='background-color: lightgray;'>학점</th>
+                            <th style='background-color: lightgray;'>수강여부</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr align='center' bgcolor='white'>
+                            <th>1</th>
+                            <th style='font-weight:lighter;'>전공기초</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>공학통계 2</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='공학통계 2' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>2</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>경영과학 2</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='경영과학 2' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>3</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>생산운영관리</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='생산운영관리' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>4</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>작업설계</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='작업설계' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>5</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>산업데이터과학</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='산업데이터과학' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>6</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>기술경영</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='기술경영' check> <br>
+                        </th>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>7</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>기계공학개론</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='기계공학개론' check> <br>
+                        </th>
+
+                    </tbody>
+                </table><br><br><br>
+
+            </p>
+ 
+            <p>
+
+                <table border='1' bordercolor='gray'height='200' cellspacing='1'>
+                    <caption><span style="background-color:rgba(60, 82, 180, 0.253);">📖 3학년 1학기</span>▸ 3학년 1학기에 수강한 과목을 모두 선택하세요</caption>
+                    <br><br>
+                    <thead>
+                        <tr align='center' bgcolor='white'>
+                            <td style='background-color: lightgray;'></td>
+                            <th style='background-color: lightgray;'>이수구분</th>
+                            <th style='background-color: lightgray;'>교과목번호</th>
+                            <th style='background-color: lightgray;'>과목명</th>
+                            <th style='background-color: lightgray;'>학점</th>
+                            <th style='background-color: lightgray;'>수강여부</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr align='center' bgcolor='white'>
+                            <th>1</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>데이터베이스</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='데이터베이스' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>2</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>품질관리론</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='품질관리론' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>3</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>공급사슬관리</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='공급사슬관리' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>4</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>인간공학</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='인간공학' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>5</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>통계적선형모형</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='통계적선형모형' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>6</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>제조자동화</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='제조자동화' check> <br>
+                        </th>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>7</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>산업안전공학</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='산업안전공학' check> <br>
+                        </th>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>8</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>연구참여 1</th>
+                            <th style='font-weight:lighter;'>1</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='연구참여 1' check> <br>
+                        </th>
+
+                    </tbody>
+                </table><br><br><br>
+
+            </p>
+
+            
+            
+            <p>
+
+                <table border='1' bordercolor='gray'  height='200' cellspacing='1'>
+                    <caption><span style="background-color:rgba(60, 82, 180, 0.253);">📖 3학년 2학기</span>▸ 3학년 2학기에 수강한 과목을 모두 선택하세요</caption>
+                    <br><br>
+                    <thead>
+                        <tr align='center' bgcolor='white'>
+                            <td style='background-color: lightgray;'></td>
+                            <th style='background-color: lightgray;'>이수구분</th>
+                            <th style='background-color: lightgray;'>교과목번호</th>
+                            <th style='background-color: lightgray;'>과목명</th>
+                            <th style='background-color: lightgray;'>학점</th>
+                            <th style='background-color: lightgray;'>수강여부</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr align='center' bgcolor='white'>
+                            <th>1</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>데이터마이닝</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='데이터마이닝' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>2</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>시뮬레이션</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='시뮬레이션' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>3</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>경영정보시스템</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='경영정보시스템' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>4</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>실험설계및분석</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='실험설계및분석' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>5</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>확률과정론</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='확률과정론' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>6</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>운영분석</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='운영분석' check> <br>
+                        </th>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>7</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>생산시스템공학</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='생산시스템공학' check> <br>
+                        </th>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>8</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>지속가능성설계</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='지속가능성설계' check> <br>
+                        </th>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>9</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>연구참여 2</th>
+                            <th style='font-weight:lighter;'>1</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='연구참여 2' check> <br>
+                        </th>
+
+                    </tbody>
+                </table><br><br><br>
+ 
+            </p>
+
+         
+            
+            <p>
+
+                <table border='1' bordercolor='gray' height='200' cellspacing='1'>
+                    <caption> <span style="background-color:rgba(60, 82, 180, 0.253);">📖 4학년 1학기</span>▸ 4학년 1학기에 수강한 과목을 모두 선택하세요</caption>
+                    <br><br>
+                    <thead>
+                        <tr align='center' bgcolor='white'>
+                            <td style='background-color: lightgray;'></td>
+                            <th style='background-color: lightgray;'>이수구분</th>
+                            <th style='background-color: lightgray;'>교과목번호</th>
+                            <th style='background-color: lightgray;'>과목명</th>
+                            <th style='background-color: lightgray;'>학점</th>
+                            <th style='background-color: lightgray;'>수강여부</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr align='center' bgcolor='white'>
+                            <th>1</th>
+                            <th style='font-weight:lighter;'>전공필수</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>종합설계프로젝트</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='종합설계프로젝트' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>2</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>정보시스템분석및설계</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='정보시스템분석및설계' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>3</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>전사적자원관리</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='전사적자원관리' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>4</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>신뢰성공학</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='신뢰성공학' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>5</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>시설계획및설계</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='시설계획및설계' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>6</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>최적화와계산지능</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='최적화와계산지능' check> <br>
+                        </th>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>7</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>스마트제조</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='스마트제조' check> <br>
+                        </th>
+
+                    </tbody>
+                </table><br><br><br>
+
+            </p>
+            
+            <p>
+
+                <table border='1' bordercolor='gray' height='200' cellspacing='1'>
+                    <caption><span style="background-color:rgba(60, 82, 180, 0.253);">📖 4학년 2학기</span>▸ 4학년 2학기에 수강한 과목을 모두 선택하세요</caption>
+                    <br><br>
+                    <thead>
+                        <tr align='center' bgcolor='white'>
+                            <td style='background-color: lightgray;'></td>
+                            <th style='background-color: lightgray;'>이수구분</th>
+                            <th style='background-color: lightgray;'>교과목번호</th>
+                            <th style='background-color: lightgray;'>과목명</th>
+                            <th style='background-color: lightgray;'>학점</th>
+                            <th style='background-color: lightgray;'>수강여부</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr align='center' bgcolor='white'>
+                            <th>1</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>인공지능응용</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='종합설계프로젝트' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>2</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>물류관리</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='정보시스템분석및설계' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>3</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>창의제품개발론</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='신뢰성공학' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>4</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>인간컴퓨터상호작용</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='시설계획및설계' check> <br></th>
+                        </tr>
+
+                        <tr align='center' bgcolor='white'>
+                            <th>5</th>
+                            <th style='font-weight:lighter;'>전공선택</th>
+                            <th style='font-weight:lighter;'>IE12345</th>
+                            <th style='font-weight:lighter;'>산업공학특론</th>
+                            <th style='font-weight:lighter;'>3</th>
+                            <th style='font-weight:lighter;'><input type='checkbox' Name= 1-1 Value='최적화와계산지능' check> <br>
+                        </th>
+
+                    </tbody>
+                </table>
+            </div>
+                <br><br><br>
+
+            </p><br>
+            <div class="wrap">
+                <button class="button" onclick="location.href='MyWeb2.html'">제출하기</button>
+                <br><br>
+              </div>
+
+        </article>
+
+
+    </div>
+
+    <footer>
+        <h4 style='color: white;'>PNU CALCULATOR</h2>
+    </footer>
+
+
+</body>
+</html>
